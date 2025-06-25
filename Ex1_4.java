@@ -7,16 +7,7 @@ public class Ex1_4 {
 
         System.out.println();
         // Sans stream
-        System.out.println("AVEC STREAM");
-        int maxStream = java.util.Arrays.stream(numbers).max().orElseThrow();
-        int minStream = java.util.Arrays.stream(numbers).min().orElseThrow();
-        System.out.println("Maximum : " + maxStream);
-        System.out.println("Minimum : " + minStream);
-
-        System.out.println();
-        // Avec stream
         System.out.println("SANS STREAM");
-
         for (int n : numbers) {
             if (n > max) {
                 max = n;
@@ -27,5 +18,14 @@ public class Ex1_4 {
         }
         System.out.println("Maximum : " + max);
         System.out.println("Minimum : " + min);
+
+        System.out.println();
+        // Avec stream
+        System.out.println("AVEC STREAM");
+        int maxStream = java.util.Arrays.stream(numbers).max().orElseThrow();
+        int minStream = java.util.Arrays.stream(numbers).min().orElseThrow();
+        System.out.println("Maximum : " + maxStream);
+        System.out.println("Minimum : " + minStream);
+
     }
 }

@@ -4,21 +4,19 @@ import java.util.Arrays;
 
 public class Ex1_1 {
     public static void main(String[] args) {
-        System.out.println();
-        // Sans stream
+
         int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        System.out.println("SANS STREAM");
-        System.out.println("Nombres pairs :");
-        Arrays.stream(numbers).filter(n -> n % 2 == 0).forEach(System.out::println);
 
         System.out.println();
-        // Avec une boucle for
-        System.out.println("AVEC BOUCLE FOR");
+        // Sans stream
+        System.out.println("SANS STREAM");
         System.out.println("Nombres pairs :");
-        for (int n : numbers) {
-            if (n % 2 == 0) {
-                System.out.println(n);
-            }
-        }
+        System.out.println(Arrays.toString(numbers).replaceAll("\\[(.*?)\\]", "").replaceAll("[13579, ]", ""));
+
+        System.out.println();
+        // Avec stream
+        System.out.println("AVEC STREAM");
+        System.out.println("Nombres pairs :");
+        Arrays.stream(numbers).filter(n -> n % 2 == 0).forEach(System.out::println);
     }
 }
