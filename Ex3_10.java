@@ -1,4 +1,5 @@
 //Exo 3.10 : Trier une liste d'objets (par exemple : liste de personne par âge)
+
 public class Ex3_10 {
     public static void main(String[] args) {
         Person[] people = {

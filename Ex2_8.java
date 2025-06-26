@@ -1,4 +1,5 @@
 //Exo 2.8 : Compter les occurences de chaque mot dans une phrase
+
 public class Ex2_8 {
     public static void main(String[] args) {
         String sentence = "Moi qui n'ai jamais prié Dieu Que lorsque j'avais mal aux dents Moi qui n'ai jamais prié Dieu Que quand j'ai eu peur de Satan Moi qui n'ai prié Satan Que lorsque j'étais amoureux Moi qui n'ai prié Satan Que quand j'ai eu peur du Bon Dieu";

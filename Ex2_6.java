@@ -1,4 +1,5 @@
 //Exo 2.6 : Calculer la somme de tous les éléments d'une liste
+
 public class Ex2_6 {
     public static void main(String[] args) {
 

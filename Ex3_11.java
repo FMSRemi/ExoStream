@@ -1,4 +1,5 @@
 //Exo 3.11 : Créer une liste de mots uniques, triés par longueur croissante.
+
 public class Ex3_11 {
     public static void main(String[] args) {
         String[] words = { "apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "banana" };

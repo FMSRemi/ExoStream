@@ -1,5 +1,5 @@
-
 // Exo 1.2 : Compter le nombre d'éléments supérieurs à 10 dans une liste
+
 import java.util.Arrays;
 // import java.lang.reflect.Array;
 
@@ -20,8 +20,8 @@ public class Ex1_2 {
 
         System.out.println("SANS STREAM");
         System.out.println("Nombre de nombres supérieurs à 10 : " + count);
-
         System.out.println();
+
         // Avec stream
         System.out.println("AVEC STREAM");
         System.out.println("Nombre d'éléments supérieurs à 10 : " +
