@@ -44,6 +44,11 @@ class Person {
         this.age = age;
     }
 
+    public Person(String string, int i, String string2) {
+        this.name = string;
+        this.age = i;
+    }
+
     public int getAge() {
         return age;
     }
@@ -51,5 +56,9 @@ class Person {
     @Override
     public String toString() {
         return name + " (" + age + ")";
+    }
+
+    public String getBirthDate() {
+        return "1990-01-01";
     }
 }
